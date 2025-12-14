@@ -1,0 +1,182 @@
+<html>
+<head>
+<title>About Me</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+
+#clock-container {
+    text-align: center;
+    margin: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #87CEFA;
+}
+</style>
+</head>
+<body>
+<audio id="bg-music" autoplay loop muted>
+  <source src="feelthepop.mp3" type="audio/mpeg">
+</audio>
+
+<button id="music-btn" onclick="toggleMusic()" 
+        class="w3-button w3-light-blue"
+        style="position:fixed; top:10px; right:10px; z-index:1000;">
+  🔊 Play Music
+</button>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-blue -card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#about-me" class="w3-bar-item w3-button w3-padding-large">ABOUT ME</a>
+    <a href="biodata.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">BIODATA</a>
+    <a href="education.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">EDUCATION</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">MORE <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="social media.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SOCIAL MEDIA</a>
+        <a href="family.html" target="_blank" class="w3-bar-item w3-button w3-padding-large w3-hide-small">FAMILY</a>
+
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<div id="navDemo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about-me" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT ME</a>
+  <a href="#biodata" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BIODATA</a>
+  <a href="biodata.html" target="_blank">BIODATA</a>
+  <a href="#education" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">EDUCATION</a>
+  <a href="education.html" target="_blank">EDUCATION</a>
+   <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+   </div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Images -->
+      <div class="mySlides w3-display-container w3-center">
+    <img src="chick.jpg" style="width:100%">
+    <div class="w3-display-topmiddle w3-container w3-text-black w3-padding-32 w3-hide-small" style="text-align:center;">
+  <p style="font-size:50px; font-weight:bold; white-space: nowrap;">WELCOME TO MY PERSONAL WEBSITE!</p>  
+        
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="hutan.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-black w3-padding-32 w3-hide-small" style="text-align:center;">
+  <h1 style="font-size:50px; font-weight:bold;">READY TO EXPLORE?</h1>  
+
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="kl.jpg" style="width:100%">
+    <div class="w3-display-middle w3-container w3-text-black w3-padding-32 w3-hide-small" style="text-align:center;">
+  <h1 style="font-size:50px; font-weight:bold;">LET'S DIVE IN!</h1>  
+
+    </div>
+  </div> 
+
+  <!-- Clock -->
+<div id="clock-container"></div>
+
+  <!-- About Me Section -->
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about-me">
+    <h2 class="w3-wide">ABOUT ME</h2>
+    <p class="w3-opacity"><i>Farah Irdina binti Ibrahim</i></p>
+    <p class="w3-justify">Assalamualaikum and hello everyone! My name is Farah Irdina binti Ibrahim and people call me Farah. I am currently pursuing a diploma in information management and am in my final semester. Throughout my studies, I have learned many things and made many friends. Beyond academics, I enjoy reading, exploring new technologies, and engaging in activities that challenge me to grow and learn continuously. Over the years, I have built meaningful friendships and connections that inspire me to strive for excellence, and through this resume, I hope to share a glimpse of my experiences, interests, and the passions that motivate me both personally and professionally. On this resume, you'll find:</p>
+    <ol style="padding-left:20px; text-align:left;">
+   <li>Biodata</li> 
+   <li>Education</li>
+   <li>Social Media</li>
+   <li>Family</li>
+    </ol>
+</div>
+   
+  
+<!-- End Page Content -->
+</div>
+
+<video controls autoplay loop muted
+       style="width:100%; height:100vh; object-fit:cover; display:block; margin:auto;">
+  <source src="colorful.mp4" type="video/mp4">
+</video>
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<script>
+function toggleMusic() {
+  const music = document.getElementById("bg-music");
+  const btn = document.getElementById("music-btn");
+
+  if (music.paused) {
+    music.muted = false;
+    music.play().then(() => {
+      btn.innerHTML = "🔇 Stop Music";
+    }).catch(err => {
+      console.log("Autoplay blocked:", err);
+    });
+  } else {
+    music.pause();
+    btn.innerHTML = "🔊 Play Music";
+  }
+}
+</script>
+
+
+<script>
+function updateClock() {
+  const now = new Date();
+  const time = now.toLocaleTimeString();
+  const date = now.toDateString();
+
+  document.getElementById("clock-container").innerHTML =
+    date + " | " + time;
+}
+
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+</body>
+</html>
