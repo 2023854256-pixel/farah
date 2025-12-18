@@ -1,0 +1,45 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #e0f0ff;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fancy Image Border */
+.fancy-border {
+  border-radius: 20px;
+  border: 5px solid #ffffff;
+  box-shadow: 0 0 20px rgba(64, 64, 64, 0.7),
+              0 0 40px rgba(64, 64, 64, 0.5);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.fancy-border:hover {
+  transform: scale(1.05);
+}
+
+/* Fade In Animation */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Marquee */
+.marquee-top,
+.marquee-bottom {
+  background-color: #80d4ff;
+  color: white;
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
