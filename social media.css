@@ -1,0 +1,77 @@
+/* ===== Body & Background ===== */
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background: url('biru.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* ===== Navbar Button Padding ===== */
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+/* ===== Pulse Animation for Icons ===== */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.w3-quarter i {
+  animation: pulse 2s infinite;
+  transition: transform 0.3s;
+}
+
+.w3-quarter i:hover {
+  transform: scale(1.3);
+  color: #1DA1F2;
+}
+
+/* ===== Fancy Heading ===== */
+.fancy-heading {
+  font-family:'Raleway', sans-serif;
+  font-size:50px;
+  font-weight:800;
+  text-align:center;
+  color:black;
+  background-color:#B3E5FC;
+  padding:20px;
+  border-radius:15px;
+  display:inline-block;
+}
+
+/* ===== Glow Title ===== */
+.glow-title {
+  border: 3px solid black;
+  padding: 15px 25px;
+  display: inline-block;
+  border-radius: 10px;
+  box-shadow: 0 0 12px black, 0 0 25px black;
+  transition: 0.3s;
+}
+
+.glow-title:hover {
+  box-shadow: 0 0 20px black, 0 0 40px black;
+  transform: scale(1.03);
+}
+
+/* ===== Section Padding ===== */
+.social-container {
+  padding: 150px 20px;
+}
+
+.social-intro {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.social-row {
+  margin-top: 70px;
+}
