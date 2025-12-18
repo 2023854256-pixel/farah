@@ -1,0 +1,87 @@
+/* ===== Global Fonts ===== */
+html, body, h1, h2, h3, h4 {
+  font-family: "Lato", sans-serif;
+}
+
+/* ===== Slides & Tags ===== */
+.mySlides {
+  display: none;
+}
+
+.w3-tag, .fa {
+  cursor: pointer;
+}
+
+.w3-tag {
+  height: 15px;
+  width: 15px;
+  padding: 0;
+  margin-top: 6px;
+}
+
+/* ===== Education Cards ===== */
+.w3-col {
+  border: 3px solid #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(255,255,255,0.5),
+              0 0 30px rgba(255,255,255,0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.w3-col:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 30px rgba(255,255,255,0.7),
+              0 0 60px rgba(255,255,255,0.5);
+}
+
+/* ===== Images ===== */
+.w3-col img {
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.w3-col img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* ===== Table Styling ===== */
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px auto 30px auto;
+}
+
+table, th, td {
+  border: 2px solid #00008B;
+}
+
+th, td {
+  padding: 12px;
+  font-size: 16px;
+  background: #B0E0E6;
+}
+
+th {
+  background: #87CEFA;
+  color: #000000;
+  font-weight: bold;
+}
+
+th:first-child,
+td:first-child {
+  width: 60%;
+}
+
+th:last-child,
+td:last-child {
+  width: 40%;
+}
+
+/* ===== Page Background ===== */
+.education-bg {
+  background-image: url('s.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
