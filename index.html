@@ -17,6 +17,86 @@ body {font-family: "Lato", sans-serif}
     font-weight: bold;
     color: #87CEFA;
 }
+    /* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+  background-color: #f6fbff;
+}
+
+/* Navbar */
+.w3-bar.w3-light-blue {
+  box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+}
+
+.w3-bar-item {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.w3-bar-item:hover {
+  background-color: #5dade2 !important;
+  color: #fff !important;
+}
+
+/* Dropdown */
+.w3-dropdown-content {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Slideshow text */
+.mySlides h1,
+.mySlides p {
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+}
+
+/* Clock */
+#clock-container {
+  background: rgba(135, 206, 250, 0.2);
+  padding: 12px 25px;
+  border-radius: 25px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* About Me card */
+#about-me {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 40px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+/* Button music */
+#music-btn {
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+#music-btn:hover {
+  background-color: #3498db !important;
+  color: white !important;
+}
+
+/* Video */
+video {
+  border-radius: 20px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .mySlides h1,
+  .mySlides p {
+    font-size: 28px !important;
+  }
+
+  #clock-container {
+    font-size: 18px;
+  }
+}
 </style>
 </head>
 <body>
@@ -180,4 +260,5 @@ updateClock();
 </script>
 </body>
 </html>
+
 
